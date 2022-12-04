@@ -2,7 +2,7 @@ all:
 	bundle exec jekyll build
 
 live:
-	bundle exec jekyll serve --livereload
+	bundle exec jekyll serve --livereload --incremental
 
 push:
 	git push origin main
