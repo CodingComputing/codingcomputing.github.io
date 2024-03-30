@@ -1,0 +1,53 @@
+body {
+    background-color: #202020;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+b {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.link {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    border-radius: 0%;
+    border: none;
+    transition-duration: 0.3s;
+    opacity: 80%;
+    font-weight: bold;
+}
+
+.link:hover {
+    opacity: 100%;
+}
+
+#btn-newsletter {
+    background-color: #4CAF50;
+}
+
+#btn-xtwitter {
+    background-color: #1D9BF0;
+}
+
+#btn-youtube {
+    background-color: red;
+}
+
+#btn-insta {
+    background-color: #8134AF;
+}
+
+#btn-threads {
+    background-color: black;
+}
